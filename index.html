@@ -19,7 +19,7 @@
             // Redirect to the randomly selected homepage after a delay
             setTimeout(() => {
                 window.location.href = randomHomepage;
-            }, 500); // 3-second delay
+            }, 3000); // 3-second delay
         });
     </script>
     <style>
@@ -29,11 +29,13 @@
             align-items: center;
             min-height: 100vh;
             margin: 0;
+            background-color: #f9f9f9;
         }
 
         img {
-            width:250px;
+            width: 270px;
             height: 200px;
+            transform: translate(-5px, 5px); /* Move 5px left and 5px down */
         }
     </style>
 </head>
