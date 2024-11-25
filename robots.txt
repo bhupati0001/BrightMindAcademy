@@ -1,0 +1,8 @@
+
+# Allow all bots to crawl all pages
+User-agent: *
+Disallow:
+Allow: /
+
+# Sitemap link
+Sitemap: https://brightmindacademy.in/sitemap.xml
