@@ -15,7 +15,6 @@
     <meta name="keywords"
         content="Bright Mind Academy, coaching for 8th grade, 12th grade tuition, personalized learning, academic coaching, best coaching center, study tips">
 
-
     <meta name="google-site-verification" content="mQUw_uz6GVmQ4khVc2IJxWUAtxdqP9bCJYu2A1gY03c" />
     <title>Bright Mind Academy - Personalized Coaching for Grades 8-12</title>
 
@@ -36,7 +35,25 @@
                 window.location.href = randomHomepage;
             }, 3000); // 3-second delay
         });
+
+        // Typewriter effect for www.brightmindacademy.in
+        document.addEventListener('DOMContentLoaded', function () {
+            const text = 'www.brightmindacademy.in';
+            const messageElement = document.querySelector('.message');
+            let index = 0;
+
+            function typeWriter() {
+                if (index < text.length) {
+                    messageElement.innerHTML += text.charAt(index);
+                    index++;
+                    setTimeout(typeWriter, 100); // 100ms delay for each letter
+                }
+            }
+
+            typeWriter();
+        });
     </script>
+
     <style>
         body {
             display: flex;
@@ -45,21 +62,38 @@
             min-height: 100vh;
             margin: 0;
             background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
 
         img {
-            width: 270px;
-            height: 200px;
-            transform: translate(-5px, 5px);
-            /* Move 5px left and 5px down */
+            width: 50%;
+            height: auto;
+            margin-bottom: 20px; 
+        }
+
+        .message {
+            font-size: 20px;
+            font-weight: bold;
+            color:#126f81;
+            width: 100%;
         }
     </style>
 </head>
 
 <body>
-    <!-- Display GIF while redirecting -->
-    <img src="images/loader-unscreen.gif" alt="Loading...">
-    <div class="message">Great things are coming your way... Sit tight while we prepare your experience.</div>
+    <div class="container">
+        <!-- Display GIF while redirecting -->
+        <img src="images/loader-unscreen.gif" alt="Loading...">
+        <div class="message"></div> <!-- The animated text will appear here -->
+    </div>
 </body>
 
 </html>
