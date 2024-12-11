@@ -3593,3 +3593,7 @@ ul.t-social li a:hover{
   color: #282c2c;
   transition: all ease-in-out 0.5s;
 }
+
+.card-body ol li a {
+  color: #181d38;
+}
