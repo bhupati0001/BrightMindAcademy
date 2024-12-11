@@ -3577,6 +3577,6 @@ footer .footer-upper .col-md-4 {
   height: 40px;
 }
 
-/* ========================================= */
-/*          Homepage 6 CSS        */
-/* ======================================== */
+div.row.service-list-wrap{
+  margin-top: 35px;
+}
