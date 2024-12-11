@@ -118,13 +118,13 @@ ol li {
 }
 
 a {
-  color: #52565b;
+  color: #fcfdff;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
 }
 a:hover, a:focus {
   text-decoration: none;
-  color: #06bbcc;
+  color: #1d2829;
   transition: all ease-in-out 0.5s;
   outline: none;
 }
@@ -3579,4 +3579,17 @@ footer .footer-upper .col-md-4 {
 
 div.row.service-list-wrap{
   margin-top: 35px;
+}
+ul.t-address li, 
+ul.t-social li a{
+  color: white;
+  transition: all ease-in-out 0.5s;
+
+}
+
+
+ul.t-address li:hover, 
+ul.t-social li a:hover{
+  color: #282c2c;
+  transition: all ease-in-out 0.5s;
 }
