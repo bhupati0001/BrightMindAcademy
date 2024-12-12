@@ -3580,20 +3580,23 @@ footer .footer-upper .col-md-4 {
 div.row.service-list-wrap{
   margin-top: 35px;
 }
-ul.t-address li, 
-ul.t-social li a{
+ul.t-address li{
   color: white;
   transition: all ease-in-out 0.5s;
 
 }
 
 
-ul.t-address li:hover, 
-ul.t-social li a:hover{
+ul.t-address li:hover{
   color: #282c2c;
   transition: all ease-in-out 0.5s;
 }
 
 .card-body ol li a {
   color: #181d38;
+}
+
+div.ins-main-list img{
+  width: 100%;
+  height: 450px;
 }
