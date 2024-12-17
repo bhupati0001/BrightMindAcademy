@@ -118,7 +118,7 @@ ol li {
 }
 
 a {
-  color: #fcfdff;
+  color: #505255;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
 }
@@ -3580,14 +3580,14 @@ footer .footer-upper .col-md-4 {
 div.row.service-list-wrap{
   margin-top: 35px;
 }
-ul.t-address li{
+ul.t-address a{
   color: white;
   transition: all ease-in-out 0.5s;
 
 }
 
 
-ul.t-address li:hover{
+ul.t-address a:hover{
   color: #282c2c;
   transition: all ease-in-out 0.5s;
 }
