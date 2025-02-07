@@ -143,3 +143,52 @@ input {
         padding: 20px;
     }
 }
+
+/* Styling for the Close Button */
+.close-btn {
+    font-size: 30px;
+    color: #333;
+    background: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-btn:hover {
+    color: #ff0000;
+}
+
+/* Hide the entire form when collapsed */
+.wrapper.collapsed {
+    display: none;
+}
+
+/* Container for the form box */
+.form-container {
+    position: relative; /* This ensures the close button is positioned relative to this container */
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin: 10px auto;  
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Styling for the Close Button inside the form box */
+.close-btn {
+    font-size: 30px;
+    color: #333;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-btn:hover {
+    color: #ff0000;
+}
