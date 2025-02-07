@@ -54,3 +54,7 @@ document.getElementById("signupForm").addEventListener("submit", function (event
         event.preventDefault();
     }
 });
+
+function onSubmit(token) {
+    document.getElementById("demo-form").submit();
+  }

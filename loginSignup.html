@@ -26,7 +26,7 @@
                         <input type="password" id="login-password" placeholder="Enter your password" required>
                     </div>
                     <div class="captcha-container">
-                        <div class="g-recaptcha" data-sitekey="6Lc2vM8qAAAAAOI-63-L5hd5YO6MV2a2_omDns4t"></div>
+                        <div class="g-recaptcha" data-sitekey="6Lcav88qAAAAAHx1T2MPaFBvR7f3ChGRvhqyjKUx"></div>
                     </div>
                     <button type="submit" class="btn">Login</button>
                 </form>
@@ -52,9 +52,12 @@
                         <input type="password" id="confirm-password" placeholder="Confirm password" required>
                     </div>
                     <div class="captcha-container">
-                        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                        <div class="g-recaptcha" data-sitekey=6Lcav88qAAAAAHx1T2MPaFBvR7f3ChGRvhqyjKUx"></div>
                     </div>
-                    <button type="submit" class="btn">Sign Up</button>
+                    <button type="submit" class=" btn g-recaptcha" 
+                    data-sitekey="reCAPTCHA_site_key" 
+                    data-callback='onSubmit' 
+                    data-action='submit'>Sign Up</button>
                 </form>
                 <p class="toggle-text">Already have an account? <a onclick="toggleForm()">Login</a></p>
             </div>
