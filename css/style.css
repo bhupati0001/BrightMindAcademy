@@ -1134,8 +1134,8 @@ header #navbar {
 }
 .header_menu .navbar.navbar-default .nav.navbar-nav {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
   text-align: center;
