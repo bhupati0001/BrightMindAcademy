@@ -39,6 +39,7 @@
             </div>
             <div id="signup-form" class="hidden">
                 <h2>Sign Up</h2>
+                <button class="close-btn" onclick="goHome()">&times;</button>
                 <form id="signupForm">
                     <div class="form-group">
                         <label for="full-name">Full Name</label>
@@ -59,10 +60,7 @@
                     <div class="captcha-container">
                         <div class="g-recaptcha" data-sitekey="6Lcav88qAAAAAHx1T2MPaFBvR7f3ChGRvhqyjKUx"></div>
                     </div>
-                    <button type="submit" class="btn g-recaptcha" 
-                    data-sitekey="reCAPTCHA_site_key" 
-                    data-callback='onSubmit' 
-                    data-action='submit'>Sign Up</button>
+                    <button type="submit" class="btn"g>Sign Up</button>
                 </form>
                 <p class="toggle-text">Already have an account? <a onclick="toggleForm()">Login</a></p>
             </div>
